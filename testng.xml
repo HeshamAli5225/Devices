@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="all end points">
+    <test name="all end points">
+        <classes>
+            <class name="APITests.AddDeviceTests"/>
+            <class name="APITests.DeleteDeviceTests"/>
+        </classes>
+    </test>
+</suite>
